@@ -260,7 +260,7 @@ footer {
 
 #sub_cover {
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
   background-image: url("../images/news/sub_cover.jpg");
   background-size: cover; }
   #sub_cover h2 {
@@ -274,11 +274,13 @@ footer {
     #sub_cover {
       background-image: url("../images/news/sub_cover@2x.jpg"); } }
   @media (min-width: 551px) {
-    #sub_cover h2 {
-      font-size: 3.2rem; }
-    #sub_cover img {
-      margin-top: 180px;
-      margin-left: 70px; } }
+    #sub_cover {
+      padding: 80px 0; }
+      #sub_cover h2 {
+        font-size: 3.2rem; }
+      #sub_cover img {
+        margin-top: 180px;
+        margin-left: 70px; } }
 
 #contents {
   padding-top: 20px; }
